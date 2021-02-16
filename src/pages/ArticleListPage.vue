@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto">
     Article List Page
+    <CheckBox id="checkbox-1" class="additional-class" />
+    <CheckBox class="checkbox-group" />
   </div>
 </template>
 

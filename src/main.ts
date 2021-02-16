@@ -1,8 +1,11 @@
-import { createApp } from 'vue'
+import Vue, { createApp, resolveComponent } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import HomeMainPage from './pages/HomeMainPage.vue'
 import ArticleListPage from './pages/ArticleListPage.vue'
+
+import CheckBox from './components/CheckBox.vue'
+
 import './index.css'
 
 const routes = [
@@ -16,4 +19,8 @@ const router = createRouter({
   routes, // short for `routes: routes`
 })
 
-createApp(App).use(router).mount('#app')
+const app = createApp(App);
+
+app.component('CheckBox', CheckBox);
+app.use(router)
+app.mount('#app')
