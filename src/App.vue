@@ -1,5 +1,7 @@
 <template>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id labore corporis temporibus modi atque rem doloremque consectetur repudiandae obcaecati! Accusantium quo, adipisci aliquid magnam maiores nulla rerum recusandae ex? Autem?
+  <div class="container mx-auto">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam omnis nostrum alias sit hic nemo suscipit nam architecto eos perferendis voluptatem dolore distinctio explicabo libero nulla porro voluptatum, earum iure!
+  </div>
 </template>
 
 <script lang="ts">
